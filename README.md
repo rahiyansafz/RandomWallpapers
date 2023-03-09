@@ -11,7 +11,7 @@ RandomWallpapers is a simple project that retrieves random wallpapers from Unspl
 ### Installation
 
 1.  Clone the repository:
-    `git clone https://github.com/YOUR-USERNAME/RandomWallpapers.git` 
+    `https://github.com/rahiyansafz/RandomWallpapersCLI.git` 
 2.  Open the solution in Visual Studio.
 3.  Modify the Settings class to suit your preferences.
 4.  Build the solution.
@@ -39,4 +39,4 @@ The Settings class can be used to configure the behavior of the application. Her
 
 ## License
 
-This project is licensed under the [MIT License](https://chat.openai.com/LICENSE).
+This project is licensed under the MIT License - see the LICENSE file for details.
