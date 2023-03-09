@@ -32,7 +32,7 @@ The Settings class can be used to configure the behavior of the application. Her
 -   `Style`: An enumeration that specifies how the wallpaper should be displayed. Default is `WallpaperStyle.Span`.
 -   `AppDirectory`: A string that specifies the directory where wallpapers will be stored. Default is `"C:\\AwesomeWallpapers"`.
 -   `OfflineDirectory`: A string that specifies the directory where wallpapers will be stored when the application is run offline. Default is `"C:\\AwesomeWallpapers\\Offline"`.
--   `QueryString`: A string that specifies the search terms used to retrieve wallpapers from Unsplash's API. Default is `"Concert, Party, Clubbing, Pretty Girls, Fashion, Models, Lifestyle, Passion, Career, Programming, Coding, City, Couple, Music, Film, Athletics, Interior Design, Living Room, Bedroom, Office, City, Night City, Arts & Culture, People, Food & Drink"`.
+-   `QueryString`: A string that specifies the search terms used to retrieve wallpapers from Unsplash's API. Default is `"Lifestyle, Passion, Career, Programming, Coding, City, Music, Film, Athletics, Interior Design, Living Room, Bedroom, Office, City, Night City, Arts & Culture, People, Food & Drink"`.
 -   `BaseURL`: A string that specifies the base URL of Unsplash's API. Default is `"https://api.unsplash.com/"`.
 -   `AccessKey`: A string that specifies your Unsplash API access key. **This should be kept private**. Default is `"YOUR_API_KEY"`.
 -   `Secretkey`: A string that specifies your Unsplash API secret key. Default is an empty string.
