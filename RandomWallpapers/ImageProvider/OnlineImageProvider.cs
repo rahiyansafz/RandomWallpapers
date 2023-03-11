@@ -32,7 +32,6 @@ public class OnlineImageProvider : IImageProvider
 
     private async Task<string?> GetRandomImage()
     {
-
         byte[] imgBytes;
         try
         {
