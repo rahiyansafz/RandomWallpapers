@@ -4,6 +4,8 @@ using System.Net.Http.Headers;
 
 using Newtonsoft.Json.Linq;
 
+using Image = System.Drawing.Image;
+
 namespace RandomWallpapers.ImageProvider;
 public class OnlineImageProvider : IImageProvider
 {

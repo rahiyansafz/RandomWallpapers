@@ -47,6 +47,7 @@ public class App
                 return;
             }
             ScreenPainter.SetWallpaperImage(imgPath);
+            SendImageToTelegramBot.SendFile(imgPath);
             await Task.Delay(everyNMinutes);
         }
     }
