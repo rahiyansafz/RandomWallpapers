@@ -15,30 +15,6 @@ internal class SendImageToTelegramBot
 
         var chatId = Settings.ChatId;
 
-        //string directoryPath = @"C:\AwesomeWallpapers\Random";
-
-        //// Set the search pattern to find all image files (modify as needed)
-        //string searchPattern = "*.jpeg";
-
-        //// Get the paths of all image files in the directory
-        //string[] filepaths = Directory.GetFiles(directoryPath, searchPattern, SearchOption.AllDirectories);
-
-        //Console.WriteLine($"Found {filepaths.Length} files matching the pattern in the {directoryPath} directory.");
-
-        //// Loop through the file paths and print each one to the console
-        //foreach (string filepath in filepaths)
-        //    Console.WriteLine("filePaths: " + filepath);
-
-        //// Create a new List<string> to store the image paths
-        //List<string> imagesPath = new();
-
-        //// Loop through the file paths and add them to the imagesPath list
-        //foreach (string filepath in filepaths)
-        //    imagesPath.Add(filepath);
-
-        // Loop through the image paths and print each one to the console
-        //foreach (string filePath in imagesPath)
-        //{
         try
         {
             if (filePath is not null)
@@ -67,15 +43,11 @@ internal class SendImageToTelegramBot
                     cancellationToken: cts.Token);
 
                 Console.WriteLine($"Photo {fileName} uploaded successfully.");
-                ////imagesPath.Remove(filePath);
-                //Console.WriteLine($"Removing {filePath} from the list");
-                //Console.WriteLine($"Remaining files: {filepaths.Length}");
             }
         }
         catch (Exception ex)
         {
             Console.WriteLine($"Error uploading photo: {ex.Message}");
         }
-        //}
     }
 }
